@@ -1,0 +1,57 @@
+/* code style */
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  color:darkcyan;
+  font-size: larger;
+}
+
+.poem {
+  border: thin inset gray;
+  border-radius: 5px;
+  background-color: darkslategray;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.js {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+.keywd {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.fn {
+  font-weight: bold;
+  color: lightyellow;
+}
+.fnbody {
+  font-weight: normal;
+}
+.op {
+  font-weight: bold;
+  color: crimson;
+}
+.comment {
+  font-weight: lighter;
+  color: green;
+}
+.const {
+  text-transform: uppercase;
+  color: lightblue;
+}
+.tab {
+  padding-left: 2em;
+}

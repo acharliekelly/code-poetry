@@ -1,32 +1,46 @@
 <html>
   <head>
     <title>Code Poetry</title>
+    <link href="code.css" rel="stylesheet"/>
   </head>
   <body>
     <h1>Code Poems</h1>
-    <h3 id="calm">Calm</h3>
-    <code>
-      const calm = x => { x != PERFECT && learn(); }
-    </code>
-    <br>
-    <h3 id="again">Again</h3>
-    <code>
-      function again(x) {
-        if (x == SUCCESS) {
-          return x;
-        } else {
-          try {
-            again(x);
-          } catch (err) {
-            console.log(err);
+    <div class="poem">
+      <h3 id="calm">Calm</h3>
+      <div class="js">
+        <span>
+          <span class="keywd">const</span> 
+          <span class="fn">calm</span>&nbsp;<span class="op">=</span>
+          x&nbsp;<span class="op">=></span>&nbsp;<span class="op">{</span>
+          <span class="fnbody">
+            x&nbsp;<span class="op">!=</span>&nbsp;<span class="const">PERFECT</span> 
+            <span class="op">&&</span>&nbsp;<span class="fn">learn();</span>
+            <span class="op">}</span>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="poem">
+      <h3 id="again">Again</h3>
+      <pre>
+        function again(x) {
+          if (x == SUCCESS) {
+            return x;
+          } else {
+            try {
+              again(x);
+            } catch (err) {
+              console.log(err);
+            }
           }
         }
-      }
-    </code>
+      </pre>
+    </div>
+    
     <br>
     <h3 id="chickens">Chickens</h3>
-    <p>eggs: Date[]</p>
-    <code>
+    <p class="comment">eggs: Date[]</p>
+    <pre>
       function birdCount(eggs) {
         let chickens = 0;
         const today = new Date();
@@ -40,10 +54,10 @@
         }
         return chickens;
       }
-    </code>
+    </pre>
     <br>
     <h3 id="dagobah">Dagobah</h3>
-    <code>
+    <pre>
       function dagobah(task) {
         try {
           task();
@@ -51,6 +65,6 @@
           console.log('No! Try not! Do or do not, there is no try.');
         }
       }
-    </code>
+    </pre>
   </body>
 </html>
