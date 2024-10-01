@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Code Poetry</title>
+  </head>
+  <body>
+    <h1>Code Poems</h1>
+    <h3 id="calm">Calm</h3>
+    <code>
+      const calm = x => { x != PERFECT && learn(); }
+    </code>
+    <br>
+    <h3 id="again">Again</h3>
+    <code>
+      function again(x) {
+        if (x == SUCCESS) {
+          return x;
+        } else {
+          try {
+            again(x);
+          } catch (err) {
+            console.log(err);
+          }
+        }
+      }
+    </code>
+    <br>
+    <h3 id="chickens">Chickens</h3>
+    <p>eggs: Date[]</p>
+    <code>
+      function birdCount(eggs) {
+        let chickens = 0;
+        const today = new Date();
+        for (let i=0; i&lt;=eggs.length; i++) {
+          if (eggs[i] &lt;= today) {
+            // egg is hatched
+            chickens++;
+          } else {
+            // do not count
+          }
+        }
+        return chickens;
+      }
+    </code>
+    <br>
+    <h3 id="dagobah">Dagobah</h3>
+    <code>
+      function dagobah(task) {
+        try {
+          task();
+        } catch(err) {
+          console.log('No! Try not! Do or do not, there is no try.');
+        }
+      }
+    </code>
+  </body>
+</html>
