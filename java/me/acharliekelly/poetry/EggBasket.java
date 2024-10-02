@@ -30,8 +30,8 @@ public class EggBasket implements Basket {
     eggs.add(egg);
   }
 
-  public void addEgg(long days) {
-    Egg egg = new Egg(days);
+  public void addEgg(long daysTilHatch) {
+    Egg egg = new Egg(daysTilHatch);
     this.eggs.add(egg);
   }
   
